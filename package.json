@@ -1,0 +1,20 @@
+{
+  "name": "write-text-to-image",
+  "version": "1.0.0",
+  "description": "POC for writing text to images",
+  "main": "script.js",
+  "scripts": {
+    "start": "concurrently \"tsc script.ts -w\" \"nodemon script\""
+  },
+  "author": "HemathKumar R",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.6"
+  }
+}
